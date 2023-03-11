@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="180dp"
+    android:background="@color/black"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
@@ -10,28 +11,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-    <TextView
-        android:id="@+id/cryptoName"
-        android:layout_width="match_parent"
-        android:layout_gravity="fill"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="Name"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"></TextView>
-    <TextView
-        android:id="@+id/crptoValues"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="Value"
-        android:padding="8dp"
-        android:layout_gravity="fill"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        ></TextView>
+
+        <TextView
+            android:id="@+id/cryptoName"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:background="@color/black"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/crptoValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:background="@color/black"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Value"
+            android:textColor="@color/white"
+            android:textSize="18sp"></TextView>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
